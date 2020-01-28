@@ -14,7 +14,9 @@
     <name>contracts</name>
     <description>Demo project for Spring Boot</description>
     <properties>
-        <java.version>1.11</java.version>
+        <java.version>11</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
 		<lombok.version>1.18.10</lombok.version>
     </properties>
     <dependencies>
